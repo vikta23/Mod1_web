@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url(base.css);
+@import url(header.css);
+@import url(sidebar2.css);
+@import url(sidebar3.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(sidebar6.css);
+@import url(media.css);
+
+body {
+    margin: 0;
+    font-family: var(--font-family-text);
+    background-color: var(--color-lightblue);
+    color: var(--color-black);
+}
+
+@media (max-width: 900px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

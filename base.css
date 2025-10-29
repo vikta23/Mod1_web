@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-lightblue: #b4d5bc; /*колір фону*/
+    --color-black: #0c2a19; /*колір основного тексту*/
+    --color-white: #FFFFFF; /*колір заголовка*/
+    --color-blue: #0c2a19; /*колір заголовків в основному вмісті*/
+
+    --font-family-h: "Montserrat";
+    --font-family-text: "Montserrat";
+    --font-size-h1: 48px; /*для заголовку*/
+    --font-size-h2: 30px; /*для меню */
+    --font-size-h3: 40px; /* для заголовків у вмісті*/
+    --font-size-text: 20px; /*для тексту у вмісті*/
+
+    --width: 1440px;
+    --hegth: 2700px;
+
+    --hegth-header: 84px;
+    --width-header: 1000px;
+
+    --width-sidebar2: 390px;
+    --hegth-sidebar2: 87px;
+
+    --width-sidebar3: 390px;
+    --hegth-sidebar3: 184px;
+
+    --width-main: 1024px;
+    --hegth-main: 3600px;
+
+    --width-footer: 1024px;
+    --hegth-footer: 184px;
+
+    --width-sidebar6: 416px;
+    --hegth-sidebar6: 184px;
+
+}
